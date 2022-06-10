@@ -22,13 +22,13 @@
 </head>
 <body>
     <section class="sec skip-menu">
-        <h2>스킵메뉴</h2>
+        <h2 class="hide">스킵메뉴</h2>
         <a href="#">본문 바로가기</a>
         <a href="#">푸터 바로가기</a>
     </section>
 
     <section class="sec modal-popup">
-        <h2>모달팝업</h2>
+        <h2 class="hide">모달팝업</h2>
         <div class="modal-container">
             <div class="img-box">
                 <a href="#">
@@ -45,9 +45,9 @@
     </section>
 
     <section class="sec wrap">
-        <h2>컨테이너</h2>
+        <h2 class="hide">컨테이너</h2>
         <section class="banner-top">
-            <h2>상단배너</h2>
+            <h2 class="hide">상단배너</h2>
             <div class="container">
                 <div class="img-box">
                     <a href="#"><img src="./images/banner-top.jpg" alt="현대해상 바로가기"></a>
@@ -60,14 +60,14 @@
         </section>
         <header class="header">
             <div class="container desk-container">
-                <h1>
-                    <span>메가박스</span>
+                <div class="logo">
+                    <h1><span>메가박스</span><h1>
                     <div class="img-box">
                         <a href="./index.html">
                             <img src="./images/logo-white.png" alt="메가박스">
                         </a>
                     </div>
-                </h1>
+                </div>
                 <div class="btn-mo-quick">
                     <i class="fas fa-calendar-minus"></i>
                 </div>
@@ -1427,8 +1427,8 @@
                 <div class="movie-list-nav">
                     <ul>
                         <li>
-                            <a href="#" onclick="return false">
-                                <input type="text" placeholder="영화명을 입력해 주세요">   
+                            <input type="text" placeholder="영화명을 입력해 주세요"> 
+                            <a href="#" onclick="return false">  
                                 <i class="fas fa-search" title="영화명을 입력하세요"></i>
                             </a>
                         </li>
@@ -1731,7 +1731,7 @@
             </div>
         </section>
         <section class="sec banner-bottom">
-            <h2>하단배너</h2>
+            <h2 class="hide">하단배너</h2>
             <div class="container">
                 <div class="img-box">
                     <a href="#"><img src="./images/banner-bottom.jpg" alt="현대해상광고3"></a>

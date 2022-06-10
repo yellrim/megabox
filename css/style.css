@@ -17,6 +17,9 @@
         .wrap>.sec{
             padding:40px 0 80px;
         }
+        .hide{
+            display: none;
+        }
         .container{
             width:100%;
             max-width:1200px;
